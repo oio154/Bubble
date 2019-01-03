@@ -68,7 +68,7 @@ var radius = 10;
 var circles=[];
 
 for(var z=0;z<400;z++){
- circles.push(new Circle(innerWidth*Math.random(),innerHeight*Math.random(),20*(Math.random() - .5),20*(Math.random() - .5),20*Math.random()));
+ circles.push(new Circle(innerWidth*Math.random()/2,innerHeight*Math.random(),20*(Math.random() - .5),20*(Math.random() - .5),20*Math.random()));
 }
 
 

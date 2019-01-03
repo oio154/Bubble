@@ -83,3 +83,7 @@ function animate(){
 
 animate();
 
+window.addEventListener("resize",()=>{
+  canv.height=window.innerHeight;
+  canv.width=window.innerWidth;
+});
